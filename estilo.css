@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* Desarrollado por Javi Gonzalez */
+/* El 02/01/2019 */
+body{
+    background-color: #02F7FF;
+    font-family: sans-serif;
+}
+h1{
+    color: rgb(41, 75, 128);
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    margin: 0;      
+}
+p{
+    background-color: rgb(72, 146, 189); 
+    font-style: oblique;
+    font-size: 1.5rem;
+    float: left;
+    width: 17rem;
+    height: 17rem;   
+    overflow: auto;  
+    border: rgb(41, 75, 128) 5px dashed;
+    margin: 10px;
+    padding: 10px;  
+}
+p::first-letter {
+    color: rgb(41, 75, 128);
+    font-size: 5rem;
+    font-style: normal;
+    float: left;
+}
